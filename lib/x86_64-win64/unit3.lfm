@@ -1,0 +1,20 @@
+object Form2: TForm2
+  Left = 1196
+  Height = 102
+  Top = 554
+  Width = 400
+  Caption = 'Error!'
+  ClientHeight = 102
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 40
+    Height = 20
+    Top = 40
+    Width = 304
+    Caption = 'Quantity of coloms and rows must be integers'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+end

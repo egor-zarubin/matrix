@@ -1,0 +1,19 @@
+object Form3: TForm3
+  Left = 582
+  Height = 96
+  Top = 316
+  Width = 400
+  Caption = 'Error!'
+  ClientHeight = 96
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 40
+    Width = 301
+    Caption = 'the dimensions of the matrices must be equal'
+    ParentColor = False
+  end
+end

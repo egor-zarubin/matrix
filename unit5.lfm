@@ -1,0 +1,19 @@
+object Form4: TForm4
+  Left = 584
+  Height = 95
+  Top = 198
+  Width = 400
+  Caption = 'Error!'
+  ClientHeight = 95
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 32
+    Height = 20
+    Top = 40
+    Width = 333
+    Caption = 'Quantity of A''s coloms and B''s rows must be equal'
+    ParentColor = False
+  end
+end

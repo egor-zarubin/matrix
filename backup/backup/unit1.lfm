@@ -1,0 +1,238 @@
+object Form1: TForm1
+  Left = 439
+  Height = 591
+  Top = 529
+  Width = 1031
+  Caption = 'Matrix Calculator'
+  ClientHeight = 591
+  ClientWidth = 1031
+  LCLVersion = '2.0.10.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 608
+    Top = 0
+    Width = 1075
+    ActivePage = TabSheet1
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'app'
+      ClientHeight = 580
+      ClientWidth = 1067
+      ParentFont = False
+      object GroupBox1: TGroupBox
+        Left = -3
+        Height = 416
+        Top = 0
+        Width = 995
+        Caption = 'Build matrixes'
+        ClientHeight = 396
+        ClientWidth = 991
+        Color = clLime
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        OnClick = GroupBox1Click
+        object Label1: TLabel
+          Left = 109
+          Height = 15
+          Top = 6
+          Width = 44
+          Caption = 'Matrix A'
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label2: TLabel
+          Left = 6
+          Height = 15
+          Top = 45
+          Width = 102
+          Caption = 'Quantity of coloms'
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label3: TLabel
+          Left = 6
+          Height = 15
+          Top = 83
+          Width = 88
+          Caption = 'Quantity of rows'
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label4: TLabel
+          Left = 109
+          Height = 15
+          Top = 166
+          Width = 43
+          Caption = 'Matrix B'
+          ParentColor = False
+          ParentFont = False
+        end
+        object Label5: TLabel
+          Left = 6
+          Height = 15
+          Top = 205
+          Width = 102
+          Caption = 'Quantity of coloms'
+          ParentColor = False
+          ParentFont = False
+        end
+        object Edit1: TEdit
+          Left = 123
+          Height = 23
+          Top = 45
+          Width = 80
+          ParentFont = False
+          TabOrder = 0
+          Text = 'input'
+        end
+        object Edit2: TEdit
+          Left = 123
+          Height = 23
+          Top = 83
+          Width = 80
+          ParentFont = False
+          TabOrder = 1
+          Text = 'input'
+        end
+        object Edit3: TEdit
+          Left = 123
+          Height = 23
+          Top = 205
+          Width = 80
+          ParentFont = False
+          TabOrder = 2
+          Text = 'input'
+        end
+        object Edit4: TEdit
+          Left = 123
+          Height = 23
+          Top = 237
+          Width = 80
+          ParentFont = False
+          TabOrder = 3
+          Text = 'input'
+        end
+        object Button1: TButton
+          Left = 123
+          Height = 25
+          Top = 122
+          Width = 80
+          Caption = 'build'
+          OnClick = Button1Click
+          ParentFont = False
+          TabOrder = 4
+        end
+        object Button2: TButton
+          Left = 123
+          Height = 25
+          Top = 275
+          Width = 75
+          Caption = 'build'
+          OnClick = Button2Click
+          ParentFont = False
+          TabOrder = 5
+        end
+        object Button3: TButton
+          Left = 123
+          Height = 25
+          Top = 360
+          Width = 75
+          Caption = 'exit'
+          OnClick = Button3Click
+          ParentFont = False
+          TabOrder = 6
+        end
+        object Label6: TLabel
+          Left = 6
+          Height = 15
+          Top = 237
+          Width = 88
+          Caption = 'Quantity of rows'
+          ParentColor = False
+          ParentFont = False
+        end
+        object StringGrid1: TStringGrid
+          Left = 218
+          Height = 161
+          Top = 6
+          Width = 346
+          ParentFont = False
+          TabOrder = 7
+        end
+        object StringGrid2: TStringGrid
+          Left = 218
+          Height = 160
+          Top = 173
+          Width = 346
+          ParentFont = False
+          TabOrder = 8
+        end
+        object Button4: TButton
+          Left = 576
+          Height = 25
+          Top = 115
+          Width = 30
+          Caption = '+'
+          OnClick = Button4Click
+          ParentFont = False
+          TabOrder = 9
+        end
+        object Button5: TButton
+          Left = 576
+          Height = 25
+          Top = 160
+          Width = 30
+          Caption = 'x'
+          OnClick = Button5Click
+          ParentFont = False
+          TabOrder = 10
+        end
+        object Button6: TButton
+          Left = 576
+          Height = 25
+          Top = 205
+          Width = 30
+          Caption = 'T'
+          OnClick = Button6Click
+          ParentFont = False
+          TabOrder = 11
+        end
+        object StringGrid3: TStringGrid
+          Left = 621
+          Height = 330
+          Top = 6
+          Width = 352
+          ParentFont = False
+          TabOrder = 12
+        end
+        object Button7: TButton
+          Left = 32
+          Height = 25
+          Top = 122
+          Width = 75
+          Caption = 'clear'
+          OnClick = Button7Click
+          ParentFont = False
+          TabOrder = 13
+        end
+        object Button8: TButton
+          Left = 32
+          Height = 25
+          Top = 275
+          Width = 75
+          Caption = 'clear'
+          OnClick = Button8Click
+          ParentFont = False
+          TabOrder = 14
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'debugging'
+      ParentFont = False
+    end
+  end
+end

@@ -1,0 +1,20 @@
+object Form5: TForm5
+  Left = 465
+  Height = 122
+  Top = 339
+  Width = 400
+  Caption = 'Error!'
+  ClientHeight = 122
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 112
+    Height = 20
+    Top = 48
+    Width = 165
+    Caption = 'There must be an integer'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+end

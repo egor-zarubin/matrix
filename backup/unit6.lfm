@@ -1,0 +1,19 @@
+object Form5: TForm5
+  Left = 575
+  Height = 122
+  Top = 180
+  Width = 400
+  Caption = 'Form5'
+  ClientHeight = 122
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 112
+    Height = 20
+    Top = 48
+    Width = 165
+    Caption = 'Thete must be an integer'
+    ParentColor = False
+  end
+end
